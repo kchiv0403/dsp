@@ -47,7 +47,7 @@ import sklearn
 
 Did you install Python 2 or 3? Why?  
 
-Python 3 since that is the version I am more familiar with.
+>> Python 3 since that is the version I am more familiar with.
 
 ### Q2. Which Python Version Installed   
 
