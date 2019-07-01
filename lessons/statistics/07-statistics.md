@@ -92,17 +92,21 @@ Let P(MM|F) be the probability of Elvis and his twin being both male, given they
 
 Using Baye's Rule,we are trying to calculate P(I|MM), the probability of both Elvis and his twin both being identical,given that they are both male.
 
-We have P(I|MM) = $\frac{P(MM|I)*P(I)}{P(MM|I)*P(I) + P(MM|F)*P(F))}$ = 5/11
+We have P(I|MM) = $\frac{P(MM|I)*P(I)}{P(MM|I)*P(I) + P(MM|F)*P(F))}$
 
-This is about a 45.45%.
+P(MM|I) is 1/2 since we can only have P(MM|I) or P(FF|I).
+P(MM|F) is 1/4 since we can hve MM, FF, MF, or FM. 
 
+P(I|M) = (1/2)(1/300)/((1/2)*(1/300) + (1/4)*(1/125)) = 5/11
+
+There is about a 45.45% chance that Elvis was an indentical twin.
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> 
+Bayesian statistics uses probabilities for both hypotheses and data while frequentist statistics never uses or gives  the probability of a hypothesis. Bayesian statistics depends on the prior and likelihood of observed data while frequentist statistics does not require a prior. 
 
 ---
 
