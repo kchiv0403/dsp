@@ -109,7 +109,9 @@ There is about a 45.45% chance that Elvis was an indentical twin.
 How do frequentist and Bayesian statistics compare?
 
 ```
-Bayesian statistics uses probabilities for both hypotheses and data while frequentist statistics never uses or gives  the probability of a hypothesis. Bayesian statistics depends on the prior and likelihood of observed data while frequentist statistics does not require a prior. 
+Bayesian statistics uses probabilities for both hypotheses and data while frequentist statistics never uses or gives  the probability of a hypothesis. 
+
+Bayesian statistics depends on the prior and likelihood of observed data while frequentist statistics does not require a prior. 
 ```
 
 ---
