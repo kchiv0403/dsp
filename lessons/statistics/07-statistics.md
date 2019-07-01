@@ -96,7 +96,7 @@ Using Baye's Rule, we are trying to calculate P(I|MM), the probability of both E
 We have P(I|MM) = $\frac{P(MM|I)*P(I)}{P(MM|I)*P(I) + P(MM|F)*P(F))}$
 
 P(MM|I) is 1/2 since we can only have P(MM|I) or P(FF|I).
-P(MM|F) is 1/4 since we can hve MM, FF, MF, or FM. 
+P(MM|F) is 1/4 since we can have MM, FF, MF, or FM. 
 
 P(I|M) = (1/2)(1/300)/((1/2)*(1/300) + (1/4)*(1/125)) = 5/11
 
