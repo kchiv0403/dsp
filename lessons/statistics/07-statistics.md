@@ -86,22 +86,23 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Let P(I) be the probability of identical twins and P(F) be the probability of fraternal twins.
+Let P(MM|I) be the probability of both Elvis and his twin being male, given that they are both identical twins.  
+Let P(MM|F) be the probability of Elvis and his twin being both male, given they are fraternal twins.
+
+Using Baye's Rule,we are trying to calculate P(I|MM), the probability of both Elvis and his twin both being identical,given that they are both male.
+
+We have P(I|MM) = $\frac{P(MM|I)*P(I)}{P(MM|I)*P(I) + P(MM|F)*P(F))}$ = 5/11
+
+This is about a 45.45%.
+
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> Let P(I) be the probability of identical twins and P(F) be the probability of fraternal twins.
-Let P(MM|I) be the probability of both Elvis and his twin being male, given that they are both identical twins.  
-Let P(MM|F) be the probability of Elvis and his twin being both male, given they are fraternal twins.
-
-Using Baye's Rule,we are trying to calculate P(I|MM), the probability of both Elvis and his twin both being identical, given that they are both male.
-
-We have P(I|MM) = $\frac{P(MM|I)*P(I)}{P(MM|I)*P(I) + P(MM|F)*P(F))} = $\frac{$^1/_2$*$^1/300$}{$^1/_2$*$^1/_300$ + $^1/_4$*$^1/_125$} = $^5/_11$.
-
-This is about 45.45%.
+>> 
 
 ---
 
